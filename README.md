@@ -7,7 +7,7 @@ response = requests.get(url)
 response.json() ### to view the data
 
 ### Wrangling Data using an API
-data = pd.jjson_normalize(response.json())
+data = pd.json_normalize(response.json())
 
 
 
